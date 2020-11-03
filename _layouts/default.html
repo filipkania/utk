@@ -19,7 +19,8 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <div>
           {% for page in site.pages %}
-            {% if page.url not contains "assets" %}  
+            {% if page.url contains "assets" %}  
+            {% else %}
               <a href="{{ page.url | absolute_url }}">{{page.title}}</a>
             {% endif %}
           {% endfor %}
