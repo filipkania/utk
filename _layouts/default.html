@@ -19,7 +19,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <div>
           {% for post in site.pages %}
-            {% if post.url contains "assets" %}  
+            {% if post.url contains "assets" or post.title contains "Index" %}  
             {% else %}
               <a href="{{ post.url | absolute_url }}" {% if page.title == post.title %} class="active" {% endif %}>
                 <span>{{ post.title }}</span>
