@@ -27,5 +27,6 @@ header div a {
   
   &:not(:last-child) {
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
   }
 }
