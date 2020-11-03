@@ -7,6 +7,14 @@
   font-family: 'Source Sans Pro', sans-serif; 
 }
 
-footer {
-  display: none;
+header div div {
+  height: 3rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 1rem;
+  
+  &:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
+  }
 }
