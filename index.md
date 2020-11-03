@@ -9,10 +9,6 @@ title: "Strona główna"
 {% for post in site.pages %}
     {% if post.url contains "assets" or post.title contains "Index" %}  
     {% else %}
-        {% raw %}
-            <div>
-              <a href="{{post.url | absolute_url}}">{{ post.title }}</a>
-            </div>
-        {% endraw %}
+        {% include renderPost.html date={{post.date}} title={{post.title}} url={{post.url}}}
     {% endif %}
 {% endfor %}
