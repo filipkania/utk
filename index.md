@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Index page"
+title: "Strona główna"
 ---
 ## {{page.title}}
 
@@ -9,8 +9,10 @@ title: "Index page"
 {% for post in site.pages %}
     {% if post.url contains "assets" or post.title contains "Index" %}  
     {% else %}
-        <div>
-          <a href="{{post.url | absolute_url}}">{{ post.title }}</a>
-        </div>
+        {% raw %}
+            <div>
+              <a href="{{post.url | absolute_url}}">{{ post.title }}</a>
+            </div>
+        {% endraw %}
     {% endif %}
 {% endfor %}
