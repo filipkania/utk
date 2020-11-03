@@ -16,6 +16,7 @@ header div a {
   position: relative;
   border-radius: 6px;
   margin-bottom: .5rem;
+  z-index: 5;
   
   &:hover, &.active {
     background-color: #f2f2f2;
