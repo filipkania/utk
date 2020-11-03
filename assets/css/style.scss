@@ -13,6 +13,7 @@ header div a {
   width: 100%;
   align-items: center;
   font-size: 1rem;
+  position: relative;
   border-radius: 6px;
   
   &:hover, &.active {
@@ -23,6 +24,10 @@ header div a {
   
   & span {
     padding-left: 1rem;
+  }
+  
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
   }
   
   &:not(:last-of-type)::after {
