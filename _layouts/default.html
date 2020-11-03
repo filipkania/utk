@@ -19,7 +19,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         {% for page in site.pages %}
-          <a href="./{{page.title}}">{{page.title}}</a>
+          <a href="{{ page.url | absolute_url }}">{{page.title}}</a>
         {% endfor %}
       </header>
       <section>
