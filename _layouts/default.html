@@ -21,7 +21,9 @@
           {% for page in site.pages %}
             {% if page.url contains "assets" %}  
             {% else %}
-              <a href="{{ page.url | absolute_url }}">{{page.title}}</a>
+              <div>
+                <a href="{{ page.url | absolute_url }}">{{page.title}}</a>
+              </div>
             {% endif %}
           {% endfor %}
         </div>
