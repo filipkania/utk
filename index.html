@@ -2,16 +2,6 @@
 layout: default
 title: "Strona główna"
 ---
-<h2>{{page.title}}</h2>
-
-<h4>Zadania domowe:</h4>
-
-{% for post in site.pages %}
-    {% if post.url contains "assets" or post.title contains "Strona główna" %}  
-    {% else %}
-        <div>
-          <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-          <span>{{ post.date }}</span>
-        </div>
-    {% endif %}
-{% endfor %}
+<div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: flex; justify-content: center; align-items: center;">
+    Wirtualny zeszyt</br>Filip Kania, 2c
+</div>
