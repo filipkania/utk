@@ -1,0 +1,9 @@
+{% for post in site.pages %}
+    {% if post.url contains "assets" or post.title contains "Strona główna" %}  
+    {% else %}
+        <div>
+          <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+          <span>{{ post.date }}</span>
+        </div>
+    {% endif %}
+{% endfor %}
