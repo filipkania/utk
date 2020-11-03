@@ -7,12 +7,21 @@
   font-family: 'Source Sans Pro', sans-serif; 
 }
 
-header div div {
+header div a {
   height: 3rem;
   display: flex;
   width: 100%;
   align-items: center;
   font-size: 1rem;
+  border-radius: 6px;
+  
+  &:hover {
+    background-color: #f2f2f2;
+  }
+  
+  & span {
+    padding-left: 1rem;
+  }
   
   &:not(:last-child) {
     border-bottom: 1px solid #e5e5e5;
