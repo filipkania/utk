@@ -15,8 +15,10 @@ header div a {
   font-size: 1rem;
   border-radius: 6px;
   
-  &:hover {
+  &:hover, &.active {
     background-color: #f2f2f2;
+    color: #069;
+    font-weight: bold;
   }
   
   & span {
