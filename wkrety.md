@@ -1,4 +1,7 @@
-## Wkręty
+---
+layout: default
+title: 'Wkręty'
+---
 ### 1. Podaj definicję wkręta, rodzaje łbów i nacięć. Dodaj zdjęcie przykładowe do każdego typu.
 
 **Wkręt** – gwintowany trzpień, zwykle o kształcie lekko stożkowym, stanowiący łącznik w połączeniu gwintowym. Prawie wszystkie wkręty mają łeb, przeważnie z nacięciem (najczęściej prostym lub krzyżowym). 

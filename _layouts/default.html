@@ -30,6 +30,13 @@
       </header>
       <section>
 
+      {% for post in site.pages %}
+            {% if post.url contains "assets" or post.title contains "Strona główna" %}
+            {% else %}
+		<h2>{{ post.title }}
+	    {% endif %}
+      {% endfor %}
+
       {{ content }}
 
       </section>
