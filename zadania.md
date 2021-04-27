@@ -1,5 +1,7 @@
-## Zadania
-
+---
+layout: default
+title: 'Zadania'
+---
 ### 1. Proponowanie coolerów do danego procesora.
 
 1. propozycja dla **Intel 10700k**

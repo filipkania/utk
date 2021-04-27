@@ -1,5 +1,7 @@
-## iFixit
-
+---
+layout: default
+title: 'iFixit'
+---
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/IFixit_logo.svg/2880px-IFixit_logo.svg.png)](https://ifixit.com)
 
 #### 1. O czym jest ta strona?
