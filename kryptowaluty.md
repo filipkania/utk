@@ -37,7 +37,7 @@ Generalnie tak, wszystkie ceny poniżej są cenami po odjęciu kosztów prądu, 
 
 | CPU Model | Ilość pamięci L3 | Hashes per second | Zysk na miesiąc |
 |-----------|------------------|-------------------|-----------------|
-|Nvidia RTX 3090|120 MH/s|290W|0.414|
+|AMD Ryzen Threadripper 1950X|32 MB|1360 hash/s|280 zł|
 |AMD Ryzen 7 1700X|16 MB|640 hash/s|130 zł|
 |Intel i9-7900X|14 MB|490 hash/s|70 zł|
 
