@@ -5,6 +5,8 @@ title: 'Kryptowaluty'
 
 ![](https://images.unsplash.com/photo-1613919517761-0d9e719d3244?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&h=500&q=80)
 
+__Disclaimer: Wszystkie poniższe informacje pisałem samemu.__
+
 **Kryptowaluta** - jest to zdecentralizowany system wirtualnych walut, kryptowaluty nie posiadają fizycznej formy. Wszystkie rzeczy związane z płaceniem, wypłacaniem oraz przelewaniem są realizowane po przez internet.
 
 **Blockchain** (z ang. *łańcuch bloków*) - służy on do przechowywania informacji nt. transakcji zawiewanych w internecie. Technologia ta opiera się na sieci peer-to-peer, przez co nie ma głównych komputerów przetwarzających wszystkie transakcje.
